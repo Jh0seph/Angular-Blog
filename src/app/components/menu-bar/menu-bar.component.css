@@ -1,0 +1,25 @@
+
+.container_menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_menu-bar > ul > li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.linkedin {
+  border: 2px solid #0a66c2;
+  border-radius: 5px;
+}
+
+.github {
+  border: 2px solid #b8b6b6;
+  border-radius: 5px;
+}
+
+.dio {
+  border: 2px solid #c04d6f;
+  border-radius: 5px;
+}
