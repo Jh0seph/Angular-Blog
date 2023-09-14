@@ -6,13 +6,15 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./grand-card.component.css']
 })
 export class GrandCardComponent implements OnInit {
-  
+
   @Input()
   photoCover: string = ''
   @Input()
   cardTitle: string = ''
   @Input()
   cardDescription: string = ''
+  @Input()
+  Id: string = '0'
 
   constructor() { }
 
